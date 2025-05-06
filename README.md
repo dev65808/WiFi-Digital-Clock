@@ -76,10 +76,10 @@ Displays:
 
 ## Demo
 
-![Waiting](Images/Waiting.jpg)
-![Time](Images/Time.jpg)
-![Temperature and Humidity](Images/Temp+Humidity.jpg)
-![CO Level](Images/CO level.jpg)
+![Waiting](WiFi%20%Digital%20%Clock/Images/Waiting.jpg)
+![Time](WiFi%20%Digital%20%Clock/Images/Time.jpg)
+![Temperature and Humidity](WiFi%20%Digital%20%Clock/Images/Temp+Humidity.jpg)
+![CO Level](WiFi%20%Digital%20%Clock/Images/CO%20%level.jpg)
 
 ## Setup Instructions
 
