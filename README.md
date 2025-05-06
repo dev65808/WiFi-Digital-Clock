@@ -80,6 +80,7 @@ Displays:
 ![Time](WiFi%20Digital%20Clock/Images/Time.jpg)
 ![Temperature and Humidity](WiFi%20Digital%20Clock/Images/Temp+Humidity.jpg)
 ![CO Level](WiFi%20Digital%20Clock/Images/CO%20level.jpg)
+![Circuit Diagram](WiFi%20Digital%20Clock/Images/circuit_image.png)
 
 ## Setup Instructions
 
