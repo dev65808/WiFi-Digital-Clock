@@ -2,7 +2,7 @@
 
 This project uses an ESP32 and an Arduino Nano to create a real-time environmental monitoring display. It collects temperature, humidity, CO level, and time, and displays them on a 64x16 LED matrix using the DMD2 library.
 
-##Components Used
+## Components Used
 
 - ESP32: Connects to Wi-Fi and syncs time via NTP. It reads sensor data and sends it to Arduino Nano via Serial.
 
@@ -24,7 +24,7 @@ This project uses an ESP32 and an Arduino Nano to create a real-time environment
 
 ## System Overview
 
-ESP32
+### ESP32
 
 - Connects to Wi-Fi (using captive portal on first boot).
 
@@ -34,7 +34,7 @@ ESP32
 
 - Every 5 seconds: Sends sensor data (e.g., T:26.5 H:53 CO:385) to Arduino Nano.
 
-Arduino Nano
+### Arduino Nano
 
 - Parses incoming serial data from ESP32.
 
@@ -50,11 +50,13 @@ Displays:
 
 ## 📁 Project Structure
 
+<pre> <code> 
 📂 /ESP32
  └── esp32_main.ino         # Handles Wi-Fi, NTP, RTC, sensor reading, and serial output
 
 📂 /Nano
  └── nano_display.ino       # Parses serial input and displays on DMD
+</code> </pre>
 
 📜 README.md                # Project overview (this file)
 
@@ -74,11 +76,12 @@ Displays:
 
 ## Demo
 
-![Waiting](images/Waiting.jpg)
-![Time](images/Time.jpg)
-![Temperature and Humidity](images/Temp+Humidity.jpg)
-![CO Level](images/CO level.jpg)
-##Setup Instructions
+![Waiting](WiFi Digital Clock/Images/Waiting.jpg)
+![Time](WiFi Digital Clock/Images/Time.jpg)
+![Temperature and Humidity](WiFi Digital Clock/Images/Temp+Humidity.jpg)
+![CO Level](WiFi Digital Clock/Images/CO level.jpg)
+
+## Setup Instructions
 
 - Flash esp32_main.ino to ESP32.
 
@@ -87,4 +90,3 @@ Displays:
 - Power on ESP32 → Connect to ESP-Clock Wi-Fi AP → Enter your Wi-Fi credentials.
 
 - Watch the matrix start displaying synced time and sensor data.
-
