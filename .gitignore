@@ -1,0 +1,9 @@
+*.bin
+*.elf
+*.hex
+*.o
+*.d
+*.swp
+*.pyc
+__pycache__/
+build/
