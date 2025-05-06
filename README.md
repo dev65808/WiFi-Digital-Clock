@@ -8,7 +8,7 @@ This project uses an ESP32 and an Arduino Nano to create a real-time environment
 
 - Arduino Nano: Receives and parses data from ESP32 and manages the display.
 
-- SMPS(5v & 5A): It is used for brightning the p10  
+- SMPS(5v & 5A): It is used for brightning the p10
 
 - 64x16 LED Dot Matrix Display (2 × 32x16 panels)
 
@@ -76,10 +76,10 @@ Displays:
 
 ## Demo
 
-![Waiting](WiFi%20%Digital%20%Clock/Images/Waiting.jpg)
-![Time](WiFi%20%Digital%20%Clock/Images/Time.jpg)
-![Temperature and Humidity](WiFi%20%Digital%20%Clock/Images/Temp+Humidity.jpg)
-![CO Level](WiFi%20%Digital%20%Clock/Images/CO%20%level.jpg)
+![Waiting](WiFi%20Digital%20Clock/Images/Waiting.jpg)
+![Time](WiFi%20Digital%20Clock/Images/Time.jpg)
+![Temperature and Humidity](WiFi%20Digital%20Clock/Images/Temp+Humidity.jpg)
+![CO Level](WiFi%20Digital%20Clock/Images/CO%20level.jpg)
 
 ## Setup Instructions
 
